@@ -1,0 +1,62 @@
+
+
+h1 {
+ color:"black";
+ font-weight: bold;
+}
+
+h2 {
+ color:"black";
+ font-weight: bold;
+}
+
+
+
+/********** DESKTOP AND TABLET **********/
+@media (min-width: 768px){
+  
+  h1 {
+     font-size: 200%;
+  }
+  h2 {
+     font-size: 130%;
+  }
+  .col-sm-12 section {
+    background-color: #f0ad4e;
+    padding: 0px 0.5cm 0.5cm 0.5cm;
+  } 
+  div.col-sm-12 {
+    padding: 0px 0.6cm 0.6cm 0.6cm;
+  }  
+  .col-md-12 section {
+    background-color: #f0ad4e;
+    padding: 0px 0.5cm 0.5cm 0.5cm;
+  } 
+  div.col-md-12 {
+    padding: 0px 0.6cm 0.6cm 0.6cm;
+  } 
+}
+/********** MOBILE **********/
+@media (max-width: 767px) {
+  h1 {
+     font-size: 260%;
+  }
+  h2 {
+     font-size: 160%;
+  }
+  .col-xs-12 section {
+    background-color: #f0ad4e;
+    padding: 0px 0.5cm 0.5cm 0.5cm;
+  } 
+  div.col-xs-12 {
+    padding: 0px 2.3cm 2.3cm 2.3cm;
+  } 
+  .navbar-default .navbar-collpase{
+    border-color: "black";
+  }   
+
+  .navbar-collapse{
+    background-color: #fbf888;
+  }
+  
+}
